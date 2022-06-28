@@ -13,7 +13,7 @@ for (let index = 0; index < urgenteCabecalho.length; index += 1) {
 }
 
 const semUrgencia = document.getElementsByClassName('no-emergency-tasks')[0];
-semUrgencia.style.backgroundColor = 'rgb(255, 221, 100)';
+semUrgencia.style.backgroundColor = 'rgb(255, 221, 40)';
 
 const semUrgenciaCabecalho = document.querySelectorAll('.no-emergency-tasks h3');
 for (let index = 0; index < semUrgenciaCabecalho.length; index += 1) {
